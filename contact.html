@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<header>
+    <h3 align="center">
+        La Fiorentina
+    </h3>
+</header>
+<nav></nav>
+<aside>
+</aside>
+<main></main>
+
+<body>
+    <form action="send_contact" method="post">
+        <label for="first_name">Prénom</label>
+        <input type="text" name="prenom" id="first_name"> <br \>
+        <label for="last_name">Nom</label>
+        <input type="text" name="nom" id="last_name"><br \>
+        <label for="email_personne">Email</label>
+        <input type="email" name="email" id="email_personne"><br \>
+        <label for="telephone_personne">Numéro de téléphone </label>
+        <input type="tel" name="telephone" id="telephone_personne"><br \>
+
+        <br \>
+        <textarea name="message_personnel" rows="5" cols="50">Votre message</textarea><br \>
+
+        <select name="selection_contact" multiple>
+            <option value="email">Email</option>
+            <option value="telephone">Telephone</option>
+        </select>
+
+
+        <button type="submit">Valider</button>
+    </form>
+</body>
+<footer></footer>
+
+</html>
